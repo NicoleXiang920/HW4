@@ -21,9 +21,9 @@ fig, ax = plt.subplots()
 # plt.ylabel('Amplitude')
 
 #uncomment this section to plot the fourier transform output using the FFT algorithm
-ax.plot(xf, 2.0 / N * np.abs(yf[:N // 2]))
-plt.xlabel('Frequency (Hz)')
-plt.ylabel('Amplitude')
+# ax.plot(xf, 2.0 / N * np.abs(yf[:N // 2]))
+# plt.xlabel('Frequency (Hz)')
+# plt.ylabel('Amplitude')
 
 plt.show()
 
